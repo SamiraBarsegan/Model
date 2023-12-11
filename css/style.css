@@ -642,21 +642,4 @@ span {
         text-align: center;
     }
 }
-@media (max-width: 370px){
-    .home{
-        justify-content: center;
-    }
-    .home-content{
-     width: 260px;
-    }
 
-    .home-content p{
-      width: 260px;
-    }
-    .home-content{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-}
