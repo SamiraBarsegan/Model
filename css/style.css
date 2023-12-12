@@ -54,7 +54,7 @@ body {
   position: relative;
 }
 .logo::after {
-  content: url(../images/imgico.svg);
+  content: url('../images/imgico.svg');
   position: absolute;
   top: -5px;
   left: 0;
