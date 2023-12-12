@@ -285,6 +285,7 @@ span {
   border-bottom: 0.2rem solid var(--second-bg-color);
   border-left: 0.2rem solid var(--main-color);
   border-right: 0.2rem solid var(--main-color);
+  animation: aboutSpinner 8s linear infinite;
 }
 .about-content {
   text-align: center;
@@ -691,5 +692,10 @@ span {
   }
   78%,81% {
     opacity: 0;
+  }
+}
+@keyframes aboutSpinner {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
