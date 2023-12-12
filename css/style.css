@@ -53,7 +53,7 @@ body {
 .log__block {
   position: relative;
 }
-.logo::after {
+.logo::before {
   content: url('../images/imgico.svg');
   position: absolute;
   top: -5px;
