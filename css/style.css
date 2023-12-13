@@ -60,6 +60,82 @@ body {
   left: 0;
   width: 15%;
 }
+/* toggle lang  */
+.switch{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+}
+.switch input{
+  appearance: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  background: var(--bg-color);
+  outline: none;
+}
+.switch input::before,
+.switch input::after{
+  z-index: 2;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  font-weight: bolder;
+}
+.switch input::before{
+  content: 'Рус';
+  left: 15px;
+}
+.switch input::after{
+  content: 'En';
+  right: 15px;
+}
+.switch input:checked{
+  background: var(--main-color);
+}
+.switch label{
+  z-index: 1;
+  position: absolute;
+  top: 8px;
+  bottom: 4px;
+  border-radius: 20px;
+}
+.switch input{
+  transition: .25s;
+}
+.switch input:checked::after,
+.switch input:checked::before{
+  color: #fff;
+  transition: color .5s;
+}
+.switch input:checked+label{
+  left: 5px;
+  right: 45px;
+  background: var(--bg-color);
+  transition: left .5s, right .4s .2s;
+}
+.switch input:not(:checked){
+  background: var(--bg-color);
+  transition: background .4s;
+}
+.switch input:not(:checked)::before{
+  color: #fff;
+  transition: color .5s;
+}
+.switch input:not(:checked)::after{
+  color:var(--bg-color);
+  transition: color .5s .2s;
+}
+.switch input:not(:checked)+label{
+  left: 45px;
+  right: 5px;
+  background: var(--main-color);
+  transition: left .4s .2s, right .5s, background .35s;
+}
+
+
+
 .navbar a {
   font-size: 1.7rem;
   color: var(--text-color);
@@ -623,6 +699,9 @@ span {
   .home-content h1{
     font-size: 5rem;
   }
+  /* toggle btn  */
+  
+  
 }
 @media (max-width: 520px) {
   html {
