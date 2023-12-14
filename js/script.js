@@ -68,3 +68,29 @@ function openFullScreenImage(src) {
     document.getElementById("fullscreenImageContainer").style.display = "none";
   }
 
+// change lungue 
+const toggleButton = document.getElementById('toggle-language');
+const mainHeading = document.getElementById('main-heading');
+const mainHeadingSpan = document.getElementById('main-headingspan');
+const mainParagraph = document.getElementById('main-paragraph');
+const mainLogo = document.getElementById('logo');
+const homeH3 = document.getElementById('home-h3');
+
+let isRussian = true;
+
+  toggleButton.addEventListener('click', () => {
+    isRussian = !isRussian;
+
+    if (isRussian) {
+        mainLogo.textContent = "Barseghyan Samira";
+        homeH3.textContent = "Model, Kids";
+        mainHeading.innerHTML = "Hi, I'm <span>Barseghyan Samira</span>";
+        mainParagraph.textContent = "My life is a dance in which every outfit is part of my unique story. My days and I are filled with beautiful outfits and dancing emotions.";
+      } else {
+        mainLogo.textContent = "Барсегян Самира";
+        homeH3.textContent = "Модель,Дети";
+        mainHeading.innerHTML = "Привет, я <span>Барсегян Самира</span>";
+        mainParagraph.textContent = "Моя жизнь — это танец, в котором каждый наряд — часть моей уникальной истории. Мои дни наполнены красивыми нарядами и танцующими эмоциями.";
+        
+      }
+    });
