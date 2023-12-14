@@ -75,6 +75,13 @@ const mainHeadingSpan = document.getElementById('main-headingspan');
 const mainParagraph = document.getElementById('main-paragraph');
 const mainLogo = document.getElementById('logo');
 const homeH3 = document.getElementById('home-h3');
+const homeAbout = document.getElementById('home-about');
+const homeContact = document.getElementById('home-contact');
+const aHome = document.getElementById('a-home');
+const aAbout = document.getElementById('a-about');
+const aEducation = document.getElementById('a-education');
+const aPortfolio = document.getElementById('a-portfolio');
+const aContact = document.getElementById('a-contact');
 
 let isRussian = true;
 
@@ -86,11 +93,26 @@ let isRussian = true;
         homeH3.textContent = "Model, Kids";
         mainHeading.innerHTML = "Hi, I'm <span>Barseghyan Samira</span>";
         mainParagraph.textContent = "My life is a dance in which every outfit is part of my unique story. My days and I are filled with beautiful outfits and dancing emotions.";
+        homeAbout.textContent ="Here I am";
+        homeContact.textContent ="Let's Talk";
+
+        aHome.textContent = "Home";
+        aAbout.textContent = "About";
+        aEducation.textContent = "Activities";
+        aPortfolio.textContent = "Portfolio";
+        aContact.textContent = "Contacts";
       } else {
         mainLogo.textContent = "Барсегян Самира";
-        homeH3.textContent = "Модель,Дети";
+        homeH3.textContent = "Модель, Дети";
         mainHeading.innerHTML = "Привет, я <span>Барсегян Самира</span>";
         mainParagraph.textContent = "Моя жизнь — это танец, в котором каждый наряд — часть моей уникальной истории. Мои дни наполнены красивыми нарядами и танцующими эмоциями.";
-        
+        homeAbout.textContent ="Вот и Я";
+        homeContact.textContent ="Поговорим";
+
+        aHome.textContent = "Главная";
+        aAbout.textContent = "Обо мне";
+        aEducation.textContent = "Деятельность";
+        aPortfolio.textContent = "Портфолио";
+        aContact.textContent = "Контакты";
       }
     });

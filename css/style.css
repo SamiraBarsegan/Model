@@ -56,21 +56,21 @@ body {
 .logo::before {
   content: url('../images/imgico.svg');
   position: absolute;
-  top: -5px;
+  top: -10px;
   left: 0;
-  width: 15%;
+  width: 13%;
 }
 /* toggle lang  */
 .switch{
   position: relative;
   width: 100px;
-  height: 40px;
+  height: 30px;
   border-radius: 25px;
 }
 .switch input{
   appearance: none;
   width: 100px;
-  height: 40px;
+  height: 20px;
   border-radius: 25px;
   background: var(--bg-color);
   outline: none;
@@ -79,7 +79,7 @@ body {
 .switch input::after{
   z-index: 2;
   position: absolute;
-  top: 55%;
+  top: 60%;
   transform: translateY(-50%);
   font-weight: bolder;
 }
@@ -93,6 +93,8 @@ body {
 }
 .switch input:checked{
   background: var(--main-color);
+  height: 20px;
+  margin-top: 7px;
 }
 .switch label{
   z-index: 1;
@@ -182,7 +184,7 @@ section {
 }
 .home-content .text-animate {
   position: relative;
-  width: 19rem;
+  width: 22rem;
 }
 .home-content .text-animate h3 {
   font-size: 3.2rem;
@@ -729,7 +731,7 @@ span {
     content: url('../images/imgico.svg');
     position: absolute;
     left: -50px;
-    width: 40%;
+    width: 30%;
   }
   .switch{
     margin-left: 50px;
@@ -770,7 +772,7 @@ span {
 /* keyframes animation  */
 @keyframes homeBgText{
   0%,10%,100% {
-    background-position: -19rem;
+    background-position: -22.5rem;
   }
   65%,85% {
     background-position: 0 0;
