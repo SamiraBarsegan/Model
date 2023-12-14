@@ -142,6 +142,7 @@ body {
   font-weight: 500;
   margin-left: 3.5rem;
   transition: 0.3s;
+  text-align: center;
 }
 .navbar a:hover,
 .navbar a.active {
@@ -169,6 +170,7 @@ section {
 .home-content {
   max-width: 60rem;
   z-index: 99;
+  margin-top: 30px;
 }
 .home-content h1 {
   font-size: 5.6rem;
@@ -720,6 +722,19 @@ span {
     width: 38px;
     height: 38px;
   }
+  .log__block{
+    display: none;
+  }
+  .switch::before{
+    content: url('../images/imgico.svg');
+    position: absolute;
+    left: -50px;
+    width: 40%;
+  }
+  .switch{
+    margin-left: 50px;
+  }
+
 }
 @media (max-width: 410px){
     .logo{
@@ -735,6 +750,7 @@ span {
       width: 31.5rem;
       margin-bottom: 30px;
     }
+    
   
     .education{
         padding: 10rem 4% 5rem 5%;
