@@ -44,11 +44,11 @@ body {
   background: var(--bg-color);
 }
 .logo {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: var(--text-color);
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  margin-left: 60px;
+  margin-left: 50px;
 }
 .log__block {
   position: relative;
@@ -703,9 +703,9 @@ span {
   .home-content h1{
     font-size: 5rem;
   }
-  /* toggle btn  */
-  
-  
+  .logo{
+    font-size: 3.5rem;
+  }
 }
 @media (max-width: 520px) {
   html {
@@ -734,6 +734,7 @@ span {
     width: 38px;
     height: 38px;
   }
+
   .log__block{
     display: none;
   }
@@ -752,6 +753,7 @@ span {
 @media (max-width: 410px){
     .logo{
         font-size: 2.5rem;
+        
     }
     .home-content h1{
         font-size: 5.2rem;
