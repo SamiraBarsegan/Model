@@ -112,6 +112,7 @@ let isRussian = true;
         aContact.textContent = "Contacts";
 
         aboutMe.innerHTML = "About <span>Me</span>";
+        aboutH3.textContent= "Model, Kids!";
         aboutP1.textContent= "Samira, the most stylish and vibrant star in this world, where every moment of her life becomes a unique work of art. Her love for fashion is not just a passion; it's a breath, breathed into every created outfit, into every expressive look.";
         aboutP2.textContent= "In her eyes, dance is not just movement; it's a way to transform her love for life and passion for creativity into music. Every movement of her body is the harmony of dance, a unique rhythm that she creates, feeling the freedom of self-expression.";
         aboutP3.textContent= "Her wardrobe is a true palette, where each color reflects her mood, and each fabric tells its own story. She orchestrates a real fashion show on the catwalks of life, where every step is a dance, every stride an expression of confidence and elegance.";

@@ -645,6 +645,10 @@ span {
 @media (max-width: 1000px) {
   .header {
     background: var(--bg-color);
+    justify-content:flex-start;
+  }
+  .switch{
+    margin-left: auto;
   }
   #menu-icon {
     display: block;
@@ -712,6 +716,7 @@ span {
   html {
     font-size: 50%;
   }
+
   .home{
     justify-content: center;
     background: none;
@@ -747,8 +752,10 @@ span {
     width: 30%;
   }
   .switch{
-    margin-left: 50px;
+    margin-left: 70px;
+    margin-right: auto;
   }
+  
 
 }
 @media (max-width: 410px){
