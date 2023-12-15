@@ -48,7 +48,7 @@ body {
   color: var(--text-color);
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  margin-left: 70px;
+  margin-left: 60px;
 }
 .log__block {
   position: relative;
@@ -627,7 +627,7 @@ span {
     font-size: 55%;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1100px) {
   .header {
     padding: 2rem 4%;
   }
@@ -641,7 +641,7 @@ span {
     padding: 2rem 4%;
   }
 }
-@media (max-width: 888px) {
+@media (max-width: 1000px) {
   .header {
     background: var(--bg-color);
   }
@@ -711,6 +711,16 @@ span {
   html {
     font-size: 50%;
   }
+  .home{
+    justify-content: center;
+    background: none;
+  }
+  .home-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
   .home-content h1{
     display: flex;
     flex-direction: column;
@@ -730,6 +740,7 @@ span {
   .switch::before{
     content: url('../images/imgico.svg');
     position: absolute;
+    top: -10px;
     left: -50px;
     width: 30%;
   }
