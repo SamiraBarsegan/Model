@@ -91,6 +91,23 @@ const aboutP4 = document.getElementById('aboutP4');
 const aboutP5 = document.getElementById('aboutP5');
 const aboutP6 = document.getElementById('aboutP6');
 const aboutPend = document.getElementById('aboutPend');
+const eduHeading = document.getElementById('eduHeading');
+const eduH3 = document.getElementById('eduH3');
+const eduData1 = document.getElementById('eduData1');
+const eduName1 = document.getElementById('eduName1');
+const eduP1 = document.getElementById('eduP1');
+
+const eduData2 = document.getElementById('eduData2');
+const eduName2 = document.getElementById('eduName2');
+const eduP2 = document.getElementById('eduP2');
+
+const eduData3 = document.getElementById('eduData3');
+const eduName3 = document.getElementById('eduName3');
+const eduP3 = document.getElementById('eduP3');
+
+const eduData4 = document.getElementById('eduData4');
+const eduName4 = document.getElementById('eduName4');
+const eduP4 = document.getElementById('eduP4');
 
 let isRussian = true;
 
@@ -122,6 +139,18 @@ let isRussian = true;
         aboutPend.innerHTML= `Age: 9 years (11/28/2014) <br>
         Height: 146 cm <br>Shoe size 37<br>
         Brown eyes, brunette`;
+
+        eduHeading.innerHTML = "My <span>Participation</span>";
+        eduH3.textContent = "Сompetitions";
+        eduData1.textContent = "November 12, 2023";
+        eduName1.textContent = `"Magic Universe"`;
+        eduP1.textContent = `Won a gold medal and became a 1st degree laureate at the International Competition "Magic Universe" in Izhevsk`;
+
+        eduData2.textContent = "November 18, 2023";
+        eduName2.textContent = `"NEW STAR"`;
+        eduP2.textContent = `V Republican Open Competition-Festival
+        fashion theaters, beginner and professional models
+        “NEW STAR” Nomination Runway model Debut laureate 3rd degree`;
       } else {
         mainLogo.textContent = "Барсегян Самира";
         homeH3.textContent = "Модель, Дети";
@@ -147,5 +176,17 @@ let isRussian = true;
         aboutPend.innerHTML= `Возраст: 9 лет (28.11.2014) <br>
         Рост: 146 см<br>Размер обуви 37<br>
         Глаза карие, брюнетка`;
+
+        eduHeading.innerHTML = "Мои <span>Участия </span>";
+        eduH3.textContent = "Соревнования";
+        eduData1.textContent = "12 ноября 2023 г.";
+        eduName1.textContent = `"Magic Universe"`;
+        eduP1.textContent = `Завоевали золотую медаль и стали лауреатом 1 степени в Международном конкурсе "Magic Universe" г.Ижевск`;
+
+        eduData2.textContent = "November 12, 2023";
+        eduName2.textContent = `«НОВАЯ ЗВЕЗДА»`;
+        eduP2.textContent = `V Республиканский открытый Конкурс-фестиваль
+        театров моды, начинающих и профессиональных моделей
+        «НОВАЯ ЗВЕЗДА»  Номинация Подиумная модель Дебют лауреат 3 степени.`;
       }
     });
