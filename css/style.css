@@ -376,6 +376,7 @@ span {
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+  color: #d6d6d6;
 }
 .btn-box.btns {
   display: inline-block;
