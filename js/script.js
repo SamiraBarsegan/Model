@@ -109,6 +109,20 @@ const eduData4 = document.getElementById('eduData4');
 const eduName4 = document.getElementById('eduName4');
 const eduP4 = document.getElementById('eduP4');
 
+const portHeading = document.getElementById('portHeading');
+
+const contHeading = document.getElementById('contHeading');
+
+const contName = document.getElementById('contName');
+const contEmail = document.getElementById('contEmail');
+const contTel = document.getElementById('contTel');
+const contSubj = document.getElementById('contSubj');
+const contMess = document.getElementById('contMess');
+
+const contSubmit = document.getElementById('contSubmit');
+
+const footerCopy = document.getElementById('footerCopy');
+
 let isRussian = true;
 
   toggleButton.addEventListener('click', () => {
@@ -151,6 +165,29 @@ let isRussian = true;
         eduP2.textContent = `V Republican Open Competition-Festival
         fashion theaters, beginner and professional models
         “NEW STAR” Nomination Runway model Debut laureate 3rd degree`;
+
+        eduData3.textContent = "December 3, 2023";
+        eduName3.textContent = `"PROModel 2023"`;
+        eduP3.textContent = `All-Russian fashion competition ROModel 2023" 2nd place in the collection show`;
+
+        eduData4.textContent = "December 10, 2023";
+        eduName4.textContent = `"Become a Star"`;
+        eduP4.textContent = `Won 1st degree laureate in the International competition "Become a Star" in Kazan`;
+
+
+        portHeading.innerHTML = `My <span>Portfolio</span>`;
+
+        contHeading.innerHTML = `Contact <span>Me</span>`;
+
+        contName.placeholder = "Full Name";
+        contEmail.placeholder = "Email Address";
+        contTel.placeholder = "Mobile Number";
+        contSubj.placeholder = "Email Subject";
+        contMess.placeholder = "Your Message";
+
+        contSubmit.textContent = "Submit";
+
+        footerCopy.innerHTML = `Copyright &copy; 2023 by ShostkaBro | All Rights Reserved.`;
       } else {
         mainLogo.textContent = "Барсегян Самира";
         homeH3.textContent = "Модель, Дети";
@@ -183,10 +220,33 @@ let isRussian = true;
         eduName1.textContent = `"Magic Universe"`;
         eduP1.textContent = `Завоевали золотую медаль и стали лауреатом 1 степени в Международном конкурсе "Magic Universe" г.Ижевск`;
 
-        eduData2.textContent = "November 12, 2023";
+        eduData2.textContent = "18 ноября 2023 г.";
         eduName2.textContent = `«НОВАЯ ЗВЕЗДА»`;
         eduP2.textContent = `V Республиканский открытый Конкурс-фестиваль
         театров моды, начинающих и профессиональных моделей
         «НОВАЯ ЗВЕЗДА»  Номинация Подиумная модель Дебют лауреат 3 степени.`;
+
+        eduData3.textContent = "3 декабря 2023 г.";
+        eduName3.textContent = `"PROModel 2023"`;
+        eduP3.textContent = `Всероссийский конкурс моды «PROModel 2023» 2 место в показе коллекции.`;
+
+        eduData4.textContent = "10 декабря 2023 г.";
+        eduName4.textContent = `"Стать Звездой"`;
+        eduP4.textContent = `Лауреат 1 степени Международного конкурса «Стать Звездой» в Казани.`;
+
+
+        portHeading.innerHTML = `Моё <span>Портфолио</span>`;
+
+        contHeading.innerHTML = `Свяжитесь <span>со мной</span>`;
+
+        contName.placeholder = "Ваше Имя";
+        contEmail.placeholder = "Ваш Email";
+        contTel.placeholder = "Ваш телефон";
+        contSubj.placeholder = "Тема письма";
+        contMess.placeholder = "Ваше сообщение";
+
+        contSubmit.textContent = "Отправить";
+
+        footerCopy.innerHTML = `Авторское право &copy; 2023 от ShostkaBro | Все права защищены.`;
       }
     });
