@@ -109,6 +109,10 @@ const eduData4 = document.getElementById('eduData4');
 const eduName4 = document.getElementById('eduName4');
 const eduP4 = document.getElementById('eduP4');
 
+const eduData5 = document.getElementById('eduData5');
+const eduName5 = document.getElementById('eduName5');
+const eduP5 = document.getElementById('eduP5');
+
 const portHeading = document.getElementById('portHeading');
 
 const contHeading = document.getElementById('contHeading');
@@ -174,6 +178,10 @@ let isRussian = true;
         eduName4.textContent = `"Become a Star"`;
         eduP4.textContent = `Won 1st degree laureate in the International competition "Become a Star" in Kazan`;
 
+        eduData5.textContent = "January 20, 2024";
+        eduName5.textContent = `"Podium 2024. Ekaterinburg"`;
+        eduP5.textContent = `At the XI All-Russian competition of professional excellence “Podium 2024. Ekaterinburg” she received a 3rd degree laureate`;
+
 
         portHeading.innerHTML = `My <span>Portfolio</span>`;
 
@@ -187,7 +195,7 @@ let isRussian = true;
 
         contSubmit.textContent = "Submit";
 
-        footerCopy.innerHTML = `Copyright &copy; 2023 by ShostkaBro | All Rights Reserved.`;
+        footerCopy.innerHTML = `Copyright &copy; 2024 by ShostkaBro | All Rights Reserved.`;
       } else {
         mainLogo.textContent = "Барсегян Самира";
         homeH3.textContent = "Модель, Дети";
@@ -234,6 +242,10 @@ let isRussian = true;
         eduName4.textContent = `"Стать Звездой"`;
         eduP4.textContent = `Лауреат 1 степени Международного конкурса «Стать Звездой» в Казани.`;
 
+        eduData5.textContent = "20 января 2024 г.";
+        eduName5.textContent = `"Подиум 2024. Екатеринбург"`;
+        eduP5.textContent = `На  XI Всероссийском конкурсе профессионального мастерства «Подиум 2024. Екатеринбург»  получила лауреат 3 степени`;
+
 
         portHeading.innerHTML = `Моё <span>Портфолио</span>`;
 
@@ -247,6 +259,6 @@ let isRussian = true;
 
         contSubmit.textContent = "Отправить";
 
-        footerCopy.innerHTML = `Авторское право &copy; 2023 от ShostkaBro | Все права защищены.`;
+        footerCopy.innerHTML = `Авторское право &copy; 2024 от ShostkaBro | Все права защищены.`;
       }
     });
