@@ -44,8 +44,8 @@ window.onscroll = () => {
 // swiper section 
 const sliderMain = new Swiper('.slider__main', {
     freeMode: true,
-    centeredSlides: true,
-    mousewheel: true,
+    // centeredSlides: true,
+    // mousewheel: true,
     breakpoints: {
 		0: {
 			slidesPerView: 2.5,
