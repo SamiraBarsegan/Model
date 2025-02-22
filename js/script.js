@@ -154,8 +154,8 @@ let isRussian = true;
         aboutP4.textContent= "Samira, that name sounds like a melody, and in every movement of hers, the harmony of dance is encapsulated, creating a unique rhythm of her life. Loving to unite fashion and dance, she embodies her ideas in harmonious compositions of styles and movements.";
         aboutP5.textContent= "Her passion for fashion is not just an interest; it's a source of inspiration, an inner fire ignited by the sounds of her favorite music. When she dances, her movements unfold the pages of a book, where every trick is the next crucial moment in her amazing story.";
         aboutP6.textContent= `"My outfits are my language, and dances are my way of communicating with the world. Together, they create a unique kaleidoscope of my creative soul." Samira doesn't just dance in the world of fashion; she creates her own, unparalleled choreographic pattern of life.`;
-        aboutPend.innerHTML= `Age: 9 years (11/28/2014) <br>
-        Height: 146 cm <br>Shoe size 37<br>
+        aboutPend.innerHTML= `Age: 10 years (11/28/2014) <br>
+        Height: 146 cm <br>Shoe size 38<br>
         Brown eyes, brunette`;
 
         eduHeading.innerHTML = "My <span>Participation</span>";
@@ -195,7 +195,7 @@ let isRussian = true;
 
         contSubmit.textContent = "Submit";
 
-        footerCopy.innerHTML = `Copyright &copy; 2024 by ShostkaBro | All Rights Reserved.`;
+        footerCopy.innerHTML = `Copyright &copy; 2025 by SHOSTKABRO | All Rights Reserved.`;
       } else {
         mainLogo.textContent = "Барсегян Самира";
         homeH3.textContent = "Модель, Дети";
@@ -218,8 +218,8 @@ let isRussian = true;
         aboutP4.textContent= "Самира, это имя, звучит как мелодия, а в каждом её движении заключена гармония танца, создавая уникальный ритм своей жизни. Любя объединять моду и танец, она воплощает свои идеи в гармоничных композициях стилей и движений.";
         aboutP5.textContent= "Её страсть к моде не просто интерес, а источник вдохновения, внутренний огонь, разгорающийся под звуки любимой музыки. Когда она танцует, её движения словно раскрывают страницы книги, где каждый трюк — следующий главный момент в её удивительной истории.";
         aboutP6.textContent= "Мои наряды — это мой язык, а танцы — мой способ общения с миром. Вместе они создают уникальный калейдоскоп моей творческой души. Самира не просто танцует в мире моды; она создаёт свой собственный, неповторимый хореографический рисунок жизни.";
-        aboutPend.innerHTML= `Возраст: 9 лет (28.11.2014) <br>
-        Рост: 146 см<br>Размер обуви 37<br>
+        aboutPend.innerHTML= `Возраст: 10 лет (28.11.2014) <br>
+        Рост: 146 см<br>Размер обуви 38<br>
         Глаза карие, брюнетка`;
 
         eduHeading.innerHTML = "Мои <span>Участия </span>";
@@ -259,6 +259,6 @@ let isRussian = true;
 
         contSubmit.textContent = "Отправить";
 
-        footerCopy.innerHTML = `Авторское право &copy; 2024 от ShostkaBro | Все права защищены.`;
+        footerCopy.innerHTML = `Авторское право &copy; 2025 от SHOSTKABRO | Все права защищены.`;
       }
     });

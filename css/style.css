@@ -270,10 +270,10 @@ section {
 
 .home-sci {
   position: absolute;
-  bottom: 4rem;
+  bottom: 15rem;
   width: 170px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .home-sci a {
   position: relative;
@@ -735,6 +735,7 @@ span {
   
   .home-sci{
     width: 160px;
+    bottom: 1rem;
   }
   .home-sci a{
     width: 38px;
