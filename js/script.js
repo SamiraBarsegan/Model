@@ -155,7 +155,7 @@ let isRussian = true;
         aboutP5.textContent= "Her passion for fashion is not just an interest; it's a source of inspiration, an inner fire ignited by the sounds of her favorite music. When she dances, her movements unfold the pages of a book, where every trick is the next crucial moment in her amazing story.";
         aboutP6.textContent= `"My outfits are my language, and dances are my way of communicating with the world. Together, they create a unique kaleidoscope of my creative soul." Samira doesn't just dance in the world of fashion; she creates her own, unparalleled choreographic pattern of life.`;
         aboutPend.innerHTML= `Age: 10 years (11/28/2014) <br>
-        Height: 146 cm <br>Shoe size 38<br>
+        Height: 153 cm <br>Shoe size 38<br>
         Brown eyes, brunette`;
 
         eduHeading.innerHTML = "My <span>Participation</span>";
@@ -219,7 +219,7 @@ let isRussian = true;
         aboutP5.textContent= "Её страсть к моде не просто интерес, а источник вдохновения, внутренний огонь, разгорающийся под звуки любимой музыки. Когда она танцует, её движения словно раскрывают страницы книги, где каждый трюк — следующий главный момент в её удивительной истории.";
         aboutP6.textContent= "Мои наряды — это мой язык, а танцы — мой способ общения с миром. Вместе они создают уникальный калейдоскоп моей творческой души. Самира не просто танцует в мире моды; она создаёт свой собственный, неповторимый хореографический рисунок жизни.";
         aboutPend.innerHTML= `Возраст: 10 лет (28.11.2014) <br>
-        Рост: 146 см<br>Размер обуви 38<br>
+        Рост: 153 см<br>Размер обуви 38<br>
         Глаза карие, брюнетка`;
 
         eduHeading.innerHTML = "Мои <span>Участия </span>";
