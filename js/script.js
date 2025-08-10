@@ -243,7 +243,7 @@ let isRussian = true;
 
         contSubmit.textContent = "Submit";
 
-        footerCopy.innerHTML = `Copyright &copy; 2025 by SHOSTKABRO | All Rights Reserved.`;
+        footerCopy.innerHTML = `Copyright &copy; 2025 by <span class="author">SHOSTKABRO</span> | All Rights Reserved.`;
       } else {
         mainLogo.textContent = "Барсегян Самира";
         homeH3.textContent = "Модель, Дети";
@@ -331,6 +331,6 @@ let isRussian = true;
 
         contSubmit.textContent = "Отправить";
 
-        footerCopy.innerHTML = `Авторское право &copy; 2025 от SHOSTKABRO | Все права защищены.`;
+        footerCopy.innerHTML = `Авторское право &copy; 2025 от <span class="author">SHOSTKABRO</span> | Все права защищены.`;
       }
     });
