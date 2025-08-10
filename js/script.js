@@ -113,6 +113,30 @@ const eduData5 = document.getElementById('eduData5');
 const eduName5 = document.getElementById('eduName5');
 const eduP5 = document.getElementById('eduP5');
 
+const eduData6 = document.getElementById('eduData6');
+const eduName6 = document.getElementById('eduName6');
+const eduP6 = document.getElementById('eduP6');
+
+const eduData7 = document.getElementById('eduData7');
+const eduName7 = document.getElementById('eduName7');
+const eduP7 = document.getElementById('eduP7');
+
+const eduData8 = document.getElementById('eduData8');
+const eduName8 = document.getElementById('eduName8');
+const eduP8 = document.getElementById('eduP8');
+
+const eduData9 = document.getElementById('eduData9');
+const eduName9 = document.getElementById('eduName9');
+const eduP9 = document.getElementById('eduP9');
+
+const eduData10 = document.getElementById('eduData10');
+const eduName10 = document.getElementById('eduName10');
+const eduP10 = document.getElementById('eduP10');
+
+const eduData11 = document.getElementById('eduData11');
+const eduName11 = document.getElementById('eduName11');
+const eduP11 = document.getElementById('eduP11');
+
 const portHeading = document.getElementById('portHeading');
 
 const contHeading = document.getElementById('contHeading');
@@ -180,7 +204,31 @@ let isRussian = true;
 
         eduData5.textContent = "January 20, 2024";
         eduName5.textContent = `"Podium 2024. Ekaterinburg"`;
-        eduP5.textContent = `At the XI All-Russian competition of professional excellence “Podium 2024. Ekaterinburg” she received a 3rd degree laureate`;
+        eduP5.textContent = `At the XI All-Russian competition of professional excellence “Podium 2024. Ekaterinburg” she received a 3rd degree laureate.`;
+
+        eduData6.textContent = "November 24, 2024";
+        eduName6.textContent = `"Energy of the Stars"`;
+        eduP6.textContent = `Participated in the International Competition "Energy of the Stars" in Moscow. As part of the fashion theater Modelka. won the first degree laureate.`;
+
+        eduData7.textContent = "December 1, 2024";
+        eduName7.textContent = `Republican Dance Festival Mandarin`;
+        eduP7.textContent = `Participated in the Republican Dance Festival Mandarin. As part of the fashion theater Modelka, received the 2nd degree laureate.`;
+
+        eduData8.textContent = "March 20-23, 2025";
+        eduName8.textContent = `"Scarlet Sails Foundation Podium"`;
+        eduP8.textContent = `International grant competition, cultural foundation Scarlet Sails Podium, St. Petersburg, fashion theater of Oksana Kolchina, winner of the 1st degree Swan Song.`;
+
+        eduData9.textContent = "April 20, 2025";
+        eduName9.textContent = `"PRO.MODEL 2025"`;
+        eduP9.textContent = `All-Russian competition of models and fashion theaters Pro model, Sarapul, as part of the fashion theater of Oksana Kolchina, the number Swan Song took 1st place.`;
+
+        eduData10.textContent = "May 12, 2025";
+        eduName10.textContent = `"ART AVENUE"`;
+        eduP10.textContent = `XIV International Festival-Competition of Fashion Theatres and Designers ART AVENUE, Kazan, took 1st place.`;
+
+        eduData11.textContent = "May 17, 2025";
+        eduName11.textContent = `"Fashion silhouette. Tchaikovsky - the breath of time"`;
+        eduP11.textContent = `Regional fashion festival "Fashion silhouette. Tchaikovsky - the breath of time". As part of the fashion theater of Kolchina Oksana, with the production "Swan song" Votkinsk, took 2nd place.`;
 
 
         portHeading.innerHTML = `My <span>Portfolio</span>`;
@@ -244,7 +292,31 @@ let isRussian = true;
 
         eduData5.textContent = "20 января 2024 г.";
         eduName5.textContent = `"Подиум 2024. Екатеринбург"`;
-        eduP5.textContent = `На  XI Всероссийском конкурсе профессионального мастерства «Подиум 2024. Екатеринбург»  получила лауреат 3 степени`;
+        eduP5.textContent = `На  XI Всероссийском конкурсе профессионального мастерства «Подиум 2024. Екатеринбург»  получила лауреат 3 степени.`;
+
+        eduData6.textContent = "24 ноября 2024 г.";
+        eduName6.textContent = `"Энергия Звезд"`;
+        eduP6.textContent = `Участвовала в  Международном конкурсе "Энергия Звезд" в Москве. В составе театра мод Modelka, завоевала лауреат I степени.`;
+
+        eduData7.textContent = "1 декабря 2024 г.";
+        eduName7.textContent = `Республиканский танцевальный фестиваль Мандарин`;
+        eduP7.textContent = `Участвовала на Республиканском танцевальном фестивале Мандарин. В составе театра мод Modelka Получила лауреат   II степени.`;
+
+        eduData8.textContent = "20-23 марта 2025г.";
+        eduName8.textContent = `Фонд Алые паруса Подиум`;
+        eduP8.textContent = `Международный грантовый  конкурс , культурный фонд Алые паруса Подиум г. С-Петербург, театр моды Колчиной Оксаны,  одержала победу лауреат 1 степени Лебединая песня.`;
+
+        eduData9.textContent = "20 апреля 2025г.";
+        eduName9.textContent = `"PRO.MODEL 2025"`;
+        eduP9.textContent = `Всероссийский конкурс моделей и театров моды Pro model  г. Сарапул , в составе театра мод Колчиной Оксаны , номер Лебединая песня заняла 1 место.`;
+
+        eduData10.textContent = "12 мая 2025г.";
+        eduName10.textContent = `"АРТ АВЕНЮ"`;
+        eduP10.textContent = `XIV Международный фестиваль- конкурс театров моды и дизайнеро АРТ АВЕНЮ, Казань , заняла 1 место.`;
+
+        eduData11.textContent = "17 мая 2025г.";
+        eduName11.textContent = `"Модный силуэт. Чайковский - дыхание времени"`;
+        eduP11.textContent = `Региональный фестиваль моды "Модный силуэт. Чайковский - дыхание времени". В составе театра мод Колчиной Оксаны, с постановкой "Лебединая песня " Воткинск, заняла 2 место.`;
 
 
         portHeading.innerHTML = `Моё <span>Портфолио</span>`;
