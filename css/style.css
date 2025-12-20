@@ -166,7 +166,7 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  background: url('../images/samira-bg2025.png') no-repeat;
+  background: url('../images/samira-bg2025_3.png') no-repeat;
   background-size: cover;
   background-position: right;
 }
@@ -216,12 +216,17 @@ section {
   font-size: 1.6rem;
   margin: 2rem 0 4rem;
 }
+.btn_footer{
+  font-size: 2.6rem;
+
+}
 .btn-box {
   position: relative;
   display: flex;
   justify-content: space-between;
   width: 34.5rem;
   height: 5rem;
+  
 }
 .btn-box .btn {
   position: relative;
@@ -271,7 +276,7 @@ section {
 
 .home-sci {
   position: absolute;
-  bottom: 15rem;
+  bottom: 5rem;
   width: 170px;
   display: flex;
   justify-content: space-around;
